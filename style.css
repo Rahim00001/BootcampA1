@@ -121,3 +121,53 @@ footer {
     max-width: 70%;
     background-color: #000000;
 }
+
+#portfolioSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+#portfolio-tabs {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.tab {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: #000000;
+    cursor: pointer;
+}
+
+.project-img {
+    background-color: #000000;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.img2 {
+    position: relative;
+}
+
+.img1 {  
+    margin-right: -150px;
+}
+
+.project-desc {
+    line-height: 21.33px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 5px;
+}
+
+.project-card {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
