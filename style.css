@@ -104,27 +104,24 @@ footer {
 .award-card {
     background-color: #000000;
     padding: 40px;
-    /* border: 1px solid blue; */
     margin-bottom: 30px;
 }
 
 .award-heading {
     font-size: 24px; 
     margin-bottom: 15px;
-    background-color: #000000;
+    text-align: center;
 }
 
 .award-title {
     font-size: 18px;
     font-weight: 700;
-    background-color: #000000;
 }
 
 .award-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #000000;
 }
 
 .award-desc {
@@ -132,7 +129,6 @@ footer {
     line-height: 28px;
     color: rgba(255, 255, 255, 0.5);
     max-width: 70%;
-    background-color: #000000;
 }
 
 #portfolioSection{
@@ -223,6 +219,24 @@ footer {
         max-width: 95%;
     }
 
+    /* award section */
+    .secSub {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .award-top {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .award-desc {
+        max-width: 100%;
+    }
+
+    /* contact section */
     #contact-section {
         padding: 20px 30px;
     }
