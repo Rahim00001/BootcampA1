@@ -37,29 +37,35 @@ body {
     padding: 10px;
 }
 
+#banner-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 140px;
+    margin-bottom: 60px;
+}
+
+#img-bg {
+    width: 485.87px;
+    height: 485.87px;
+    background-color: black;
+    border-radius: 485.87px;
+    border: 2px solid rgba(255, 130, 51, 1);
+}
+
 footer {
     display: flex;
+    width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 60px;
-    /* border: 1px solid blue; */
     padding-top: 60px;
     background-color: #000000;
 }
 
-#footerBtns {
-    background-color: #000000;
-}
-
-#footerBtns a{
-    background-color: #000000;
-}
-
-#socialIcons {
+.socialIcons {
     display: flex;
     gap: 30px;
-    background-color: #000000;
 }
 
 #socialIcons img {
@@ -203,3 +209,6 @@ footer {
     text-align: center;
     margin-top: 40px;
 }
+
+
+/* responsive for mobile device */
