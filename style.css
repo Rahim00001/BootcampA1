@@ -63,13 +63,16 @@ footer {
     background-color: #000000;
 }
 
+#footerBtns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .socialIcons {
     display: flex;
     gap: 30px;
-}
-
-#socialIcons img {
-    background-color: #000000;
 }
 
 #copyRights {
@@ -77,6 +80,7 @@ footer {
     padding: 20px;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 #awardSection{
@@ -212,3 +216,19 @@ footer {
 
 
 /* responsive for mobile device */
+
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+
+    .container{
+        max-width: 95%;
+    }
+
+    #contact-section {
+        padding: 20px 30px;
+    }
+
+    .two-col {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
