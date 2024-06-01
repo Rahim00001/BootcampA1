@@ -83,6 +83,23 @@ footer {
     text-align: center;
 }
 
+#exprience-section{
+    background-image: linear-gradient(to left,rgba(255, 177, 71, 0.1), rgba(255, 108, 99, 0.1), rgba(184, 106, 223, 0.1));
+    padding: 120px 10px;
+    margin-bottom: 120px;
+}
+
+#exprience-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+
+.exprience-left-right{
+    max-width: 50%;
+}
+
 #awardSection{
     display: flex;
     flex-direction: column;
@@ -212,7 +229,6 @@ footer {
 
 
 /* responsive for mobile device */
-
 @media only screen and (min-width: 200px) and (max-width: 576px) {
 
     .container{
@@ -245,4 +261,50 @@ footer {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    /* exprience section */
+    #exprience-section{
+        padding: 60px 30px;
+    }
+
+    #exprience-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .exprience-left-right{
+        max-width: 100%;
+    }
+
+}
+
+
+/* responsive for tav device */
+@media only screen and (min-width: 577px) and (max-width: 790px) {
+
+    .container{
+        max-width: 90%;
+    }
+
+    /* award section */
+    .award-top {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .award-desc {
+        max-width: 100%;
+    }
+
+    /* exprience section */
+    #exprience-section{
+        padding: 60px 30px;
+    }
+
+    #exprience-container {
+        gap: 50px;
+    }
 }
